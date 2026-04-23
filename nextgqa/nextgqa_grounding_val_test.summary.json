@@ -1,0 +1,21 @@
+{
+  "output": "C:\\Users\\63091\\Desktop\\10623\\LLaVA-NeXT\\nextgqa\\nextgqa_grounding_val_test.jsonl",
+  "total_records": 8911,
+  "video_root": "D:\\NExTVideo\\NExTVideo",
+  "by_split": {
+    "val": {
+      "rows_total": 3358,
+      "rows_with_temporal": 3358,
+      "skip_no_video_in_gsub": 0,
+      "skip_no_qid_in_location": 0,
+      "skip_no_map_path": 0
+    },
+    "test": {
+      "rows_total": 5553,
+      "rows_with_temporal": 5553,
+      "skip_no_video_in_gsub": 0,
+      "skip_no_qid_in_location": 0,
+      "skip_no_map_path": 0
+    }
+  }
+}
