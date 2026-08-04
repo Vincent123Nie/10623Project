@@ -49,7 +49,7 @@ DATA_NAME=$dataset_name
 
 
 # wandb configure
-export WANDB_API_KEY=e464cc107357c7b38e87f239bc3eb2ce5fb73c7c
+: "${WANDB_API_KEY:?Set WANDB_API_KEY in the environment before running this script}"
 export WANDB_PROJECT=llava
 
 export WANDB_NAME=$PROJECT_NAME--$DATA_NAME--336px--unfreeze--anyres--sft

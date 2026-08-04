@@ -49,8 +49,8 @@ DATA_NAME=$dataset_name
 
 
 # wandb configure
-export WANDB_API_KEY="03fc62d68025c9498cf6493432551badd7d4f953"
-wandb login $WANDB_API_KEY
+: "${WANDB_API_KEY:?Set WANDB_API_KEY in the environment before running this script}"
+wandb login "$WANDB_API_KEY"
 
 export WANDB_NAME=$PROJECT_NAME--$MODEL_VERSION--$DATA_NAME
 

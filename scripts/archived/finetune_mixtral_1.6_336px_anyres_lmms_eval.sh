@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set up wandb
-export WANDB_API_KEY=a651c244635bc6f913ab654af3f0eebaecdc9381
+: "${WANDB_API_KEY:?Set WANDB_API_KEY in the environment before running this script}"
 export WANDB_ENTITY=llava-vl
 export WANDB_PROJECT=llava-next
 export PYTHONWARNINGS="ignore"
