@@ -71,3 +71,6 @@ playground/*.json
 mlx_configs/
 data_processing/
 # demo/
+__pycache__/
+*.py[cod]
+.env
